@@ -1,0 +1,68 @@
+.header-nav-logo {
+    font-family: Raleway sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.span-logo {
+    color:black;
+    text-decoration: none;
+}
+
+.nav-ul-link,
+.address-ul-link,
+.filters {
+   list-style-type: none;
+}
+.header-nav-links {
+    color:#2E2F42;
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.address-tel,
+.address-mail {
+    color: #434455;
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.button-name {
+    color:#4D5AE5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+}
+.apps-image {
+    list-style-type: none;
+}
+
+.app-name {
+    color: #2E2F42;
+    font-family: Roboto sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.app-name-category {
+    color:#434455;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
