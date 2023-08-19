@@ -86,7 +86,7 @@ h2 {
 .address-tel:hover,
 .header-nav-links:focus,
 .header-nav-links:hover {
-    color: red;
+    color: #404BBF;
 }
 
 .button-name:focus,
