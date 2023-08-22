@@ -21,14 +21,12 @@
 
 body {
     font-family: 'Roboto' , 'sans-serif';
-    font-style: normal;
 }
 
 h2 {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
 }
@@ -43,7 +41,6 @@ h2 {
     color: var(--white);
     text-align: center; 
     font-size: 56px;
-    font-style: normal;
     line-height: 60px; 
     letter-spacing: 1.12px;
 }
@@ -55,7 +52,6 @@ h2 {
 .footer-caption {
     color: var(--cloud);
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -108,7 +104,6 @@ h2 {
     font-family: 'Roboto' , 'sans-serif';
     font-style: normal;
     font-size: 16px;
-    font-weight: 400;
     text-decoration: none;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -124,7 +119,8 @@ h2 {
 .button-list-filters:focus,
 .button-list-filters:hover {
     color: var(--white);
-    background-color: var(--ocean);
+    background-color: var(--iris);
+    border-color: var(--ocean);
 }
 
 .hero-button:focus,
@@ -144,7 +140,6 @@ h2 {
 .features-caption {
     color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -169,7 +164,6 @@ h2 {
 .team-position {
     color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -182,9 +176,11 @@ h2 {
     line-height: 24px;
     border-radius: 4px;
     border: 1px solid;
-    border-color:  var(--cornflower);
-    background: var(--cloud, #F4F4FD);
+    border-color: var(--cornflower);
+    background: var(--cloud);
     cursor:pointer;
+    padding: 12px 24px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-button {
@@ -193,12 +189,14 @@ h2 {
     font-family: 'Roboto' , 'sans serif';
     font-size: 16px;
     font-weight: 500;
-    font-style: normal;
     line-height: 24px;
     letter-spacing: 0.64px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    border: unset;
+    outline: none;
+    padding: 16px 32px;
 }
 
 .button-list-item:active,
@@ -222,7 +220,6 @@ h2 {
 .app-name-category {
     color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
